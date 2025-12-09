@@ -1,0 +1,20 @@
+# Ignore all training outputs except logs
+output/**
+!output/
+!output/**/*.log
+!output/*.log
+
+# Ignore datasets
+datasets/
+
+# Ignore teacher models and checkpoints and other large files
+teacher_model/
+*.pth*
+*.pth.tar*
+*.pt
+*.tar
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
